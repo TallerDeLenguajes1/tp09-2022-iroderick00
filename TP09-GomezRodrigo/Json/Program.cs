@@ -9,7 +9,7 @@
             string path;
             Console.WriteLine("Ingrese una ruta para indexar los archivos: ");
             path = Console.ReadLine();
-            Archivo.generarJson(ubicacionJson, path);
+            HelperJson.generarJson(ubicacionJson, path);
         }
     }
 }
